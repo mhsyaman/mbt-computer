@@ -399,6 +399,9 @@
   .bg-breadcrumb {
     padding: 140px 0 60px 0;
   }
+  #faq {
+    padding-top: 10rem; /* Sesuaikan dengan tinggi navbar */
+  }
 }
 
 @media (max-width: 991px) {
