@@ -215,8 +215,16 @@
   }
 
   .navbar-light .navbar-nav {
-    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 250px; /* Sesuaikan dengan lebar yang diinginkan */
+    margin: 0 auto 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dddddd;
   }
+
 
   .navbar-light .navbar-nav .nav-link,
   .sticky-top.navbar-light .navbar-nav .nav-link {
@@ -232,13 +240,14 @@
   .navbar-light .navbar-brand img {
     max-height: 45px;
   }
-
-  /* Memindahkan tombol kontak ke kanan */
+ /* Tombol kontak yang panjang dan di tengah */
   .navbar-light .btn-primary {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: 0;
+    display: block;
+    width: 100%;
+    margin: 10px auto 0;
+    text-align: center;
   }
+ 
 }
 
 @media (min-width: 992px) {
@@ -947,6 +956,12 @@
   color: var(--bs-primary);
 }
 /*** Footer End ***/
+
+/*** copyright Start ***/
+.copyright {
+  background: var(--bs-dark);
+}
+/*** copyright end ***/
 
 /*** copyright Start ***/
 .copyright {
