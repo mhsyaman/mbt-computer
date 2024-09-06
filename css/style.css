@@ -117,7 +117,7 @@
 .navbar-light .navbar-nav .nav-link {
   font-family: "Roboto", sans-serif;
   position: relative;
-  margin-right: 25px;
+  
   padding: 35px 0;
   color: var(--bs-white);
   font-size: 17px;
@@ -222,7 +222,6 @@
     max-width: 250px; /* Sesuaikan dengan lebar yang diinginkan */
     margin: 0 auto 15px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #dddddd;
   }
 
 
