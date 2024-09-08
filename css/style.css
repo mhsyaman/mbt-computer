@@ -113,7 +113,7 @@
 
 /*** Topbar End ***/
 
-/*** Navbar ***/
+/*** Navbar-1***/
 .navbar-light .navbar-nav .nav-link {
   font-family: "Roboto", sans-serif;
   position: relative;
@@ -224,7 +224,6 @@
     padding-bottom: 15px;
   }
 
-
   .navbar-light .navbar-nav .nav-link,
   .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 10px 0;
@@ -239,14 +238,13 @@
   .navbar-light .navbar-brand img {
     max-height: 45px;
   }
- /* Tombol kontak yang panjang dan di tengah */
+  /* Tombol kontak yang panjang dan di tengah */
   .navbar-light .btn-primary {
     display: block;
     width: 100%;
     margin: 10px auto 0;
     text-align: center;
   }
- 
 }
 
 @media (min-width: 992px) {
